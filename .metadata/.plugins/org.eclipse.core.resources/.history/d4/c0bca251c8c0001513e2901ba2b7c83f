@@ -1,0 +1,13 @@
+<!DOCTYPE type>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="maxRepInt.js"></script>
+<body onload="addCheckbox()">
+	<h4>Enter your numbers:</h4>
+	<div id="div"></div>
+	<button class="add" type="button" onclick="addCheckbox()">+</button>
+	<button class="res" type="button" onclick="maxRepInt()">Result</button>
+	<p id="p"></p>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.white {
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	float: left;
+}
+
+.black {
+	height: 50px;
+	width: 50px;
+	background-color: black;
+	float: left;
+}
+
+.row{
+	display:inline-block;
+}
+
+.cell {
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+
+.cell:nth-child(2) {
+	background-color: black;
+}
+
+.cell:nth-child(4) {
+	background-color: black;
+}
+
+.cell:nth-child(6) {
+	background-color: black;
+}
+
+.cell:nth-child(8) {
+	background-color: black;
+}

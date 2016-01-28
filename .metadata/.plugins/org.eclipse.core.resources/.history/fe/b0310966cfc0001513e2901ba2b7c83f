@@ -1,0 +1,33 @@
+var i;
+var j;
+$(document)
+		.ready(
+				function() {
+					for (i = 1; i < 9; i++) {
+						$("#board")
+								.append(
+										'<div class="row"></div>',
+										function() {
+											for (j = 1; j < 9; j++) {
+												if (i % 2 === j % 2) {
+													$(".row")
+															.append(
+																	"<div id='"
+																			+ i
+																			+ "."
+																			+ j
+																			+ "' class='white'></div>");
+												} else {
+													$(".row")
+															.append(
+																	"<div id='"
+																			+ i
+																			+ "."
+																			+ j
+																			+ "' class='black'></div>");
+												}
+											}
+										});
+					}
+					$(".div").append(content);
+				});

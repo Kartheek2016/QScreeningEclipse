@@ -1,0 +1,11 @@
+var i;
+var j;
+$(document).ready(
+		function() {
+			for (i = 1; i < 9; i++) {
+				$("#board").append('<div class="row"></div>');
+				for (j = 1; j < 9; j++) {
+					
+				}
+			}
+		});

@@ -1,0 +1,32 @@
+var input = "";
+var count = 1;
+var addCheckbox = function() {
+	input = "<p id=" + count
+			+ "><input type='text'><button type='button' onclick='delCheckbox("
+			+ count + ")'>x</button></input><br><br>";
+	count += 1;
+	document.getElementById("div").appendchild(input);
+}
+var delCheckbox = function(current) {
+	document.getElementById(current).remove();
+}
+var rep = {};
+var num;
+var maxNum;
+var maxRepInt = function() {
+	var elements = document.getElementById("div").elements.length;
+	ocnsole.log(elements);
+	for (var i = 1; i < elements/2; i++) {
+		num = document.getElementById(i.toString()).value;
+		typeof rep[num] != "undefined" ? rep[num]++ : rep[num] = 1;
+	}
+	/* console.log(rep); */
+	var max = 0;
+	for ( var k in rep) {
+		if (max < rep[k]) {
+			maxNum = k;
+			max = rep[k];
+		}
+	}
+	document.getElementById("p").innerHTML = maxNum;
+}

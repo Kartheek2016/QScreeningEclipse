@@ -1,0 +1,44 @@
+var i;
+var j;
+$(document)
+		.ready(
+				function() {
+					for (i = 1; i < 9; i++) {
+						$(".board").append('<div class="row"></div>');
+						for (j = 1; j < 9; j++) {
+							if (i === 1) {
+								if (j === 1 || j === 8) {
+									$("div.row:last")
+											.append(
+													'<div class="cell"><img src="file:///home/heresy/Documents/KARTHEEK/chess%20icons/Rook.png"></div>');
+								} else if (j === 2 || j === 7) {
+									$("div.row:last")
+											.append(
+													'<div class="cell"><img src="file:///home/heresy/Documents/KARTHEEK/chess%20icons/knight.png"></div>');
+								} else if (j === 3 || j === 6) {
+									$("div.row:last")
+											.append(
+													'<div class="cell"><img src="file:///home/heresy/Documents/KARTHEEK/chess%20icons/Bishop.jpg"></div>');
+								} else if (j === 4) {
+									$("div.row:last")
+											.append(
+													'<div class="cell"><img src="file:///home/heresy/Documents/KARTHEEK/chess%20icons/Queen.png"></div>');
+								}else{
+									$("div.row:last")
+									.append(
+											'<div class="cell"><img src=""></div>');
+								}
+							} else if (i === 2) {
+								$("div.row:last")
+										.append(
+												'<div class="cell"><img src="file:///home/heresy/Documents/KARTHEEK/chess%20icons/Pawn.jpg"></div>');
+							} else if (i === 7) {
+								$("div.row:last")
+										.append(
+												'<div class="cell"><img src="file:///home/heresy/Documents/KARTHEEK/chess%20icons/Pawn.png></div>');
+							} else {
+								$("div.row:last").append('<div class="cell">');
+							}
+						}
+					}
+				});

@@ -1,0 +1,16 @@
+$(document).ready(function() {
+	var content = "";
+	for(var i = 0; i < 8; i++){
+		content += "<tr>";
+		for(var j = 0; j < 8; j++){
+			if(i % 2 === j % 2){
+					content += "<td class='black'></td>"
+			}else{
+				content += "<td class='white'></td>"
+			}
+		}
+		content += "</tr>";
+		content += "/n";
+	}
+	$(".tbody").append(content);
+});

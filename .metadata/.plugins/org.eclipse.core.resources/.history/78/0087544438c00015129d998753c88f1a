@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chess Board</title>
+<link type="text/css" rel="stylesheet" href="chessBoard.css"></link>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="chessBoard.js"></script>
+</head>
+<body>
+	<div class="div"></div>
+</body>
+</html>

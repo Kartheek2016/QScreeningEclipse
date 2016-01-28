@@ -1,0 +1,11 @@
+<!DOCTYPE type>
+<html>
+<head>
+<script type="text/javascript" src="maxRepChar.js"></script>
+<body>
+<form>
+<h4>Enter your string:</h4>
+<input type="text"></input>
+</form>
+</body>
+</html>

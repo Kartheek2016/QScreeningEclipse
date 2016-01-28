@@ -1,0 +1,21 @@
+body{
+	width:100%;
+	align-content:center;
+}
+.myTable{
+	border:"1";
+}
+th{
+	font-size:100px;
+	border-style:solid;
+}
+td{
+	height:100px;
+	width:100px;
+}
+.white{
+	background-color:white
+}
+.black{
+	background-color:black
+}

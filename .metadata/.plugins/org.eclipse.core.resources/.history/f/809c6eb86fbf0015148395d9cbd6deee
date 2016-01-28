@@ -1,0 +1,16 @@
+.myTable{
+	border:"1";
+}
+th{
+	collapse:8;
+}
+td{
+	height:100px;
+	width:100px;
+}
+.white{
+	background-color:white
+}
+.black{
+	background-color:black
+}

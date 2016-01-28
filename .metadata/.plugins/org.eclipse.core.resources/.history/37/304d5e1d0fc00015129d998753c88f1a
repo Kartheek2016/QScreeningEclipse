@@ -1,0 +1,12 @@
+<!DOCTYPE type>
+<html>
+<head>
+<script type="text/javascript" src="maxRepChar.js"></script>
+<body>
+	<form>
+		<h4>Enter your string:</h4>
+		<input id="checkbox" type="text"></input>
+		<button id="button">Max Repeated Char</button>
+	</form>
+</body>
+</html>

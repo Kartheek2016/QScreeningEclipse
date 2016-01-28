@@ -1,0 +1,12 @@
+var count = 0;
+$(document).ready(function() {
+	$('#input').keydown(function() {
+		var len = $(this).val.length();
+		$("#badge").html(12 - len);
+		switch(12 - len){
+		case (10):
+			$('#input').css("form-control-danger");
+		break;
+		}
+	});
+});

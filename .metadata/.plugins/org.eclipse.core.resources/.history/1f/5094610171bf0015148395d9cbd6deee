@@ -1,0 +1,23 @@
+body{
+	width:100%;
+	align-content:center;
+}
+.myTable{
+	height:50%;
+	width:50%;
+	border:"1";
+}
+th{
+	font-size:100px;
+	border-style:solid;
+}
+td{
+	height:10%;
+	width:12.5%;
+}
+.white{
+	background-color:white
+}
+.black{
+	background-color:black
+}

@@ -1,0 +1,11 @@
+var count = 0;
+$(document).ready(function() {
+	$('#input').keydown(function() {
+		count++;
+		console.log(count);
+		if (count > 0) {
+			$("#badge").val(0);
+		}
+		$("#badge").append(count);
+	});
+});

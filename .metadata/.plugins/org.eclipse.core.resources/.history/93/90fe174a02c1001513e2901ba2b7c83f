@@ -1,0 +1,8 @@
+var count = 0;
+$(document).ready(function() {
+	$('#input').keydown(function() {
+		var length = $(this).val.length();
+		$("#badge").html(12 - length);
+		switch(12 - length)
+	});
+});

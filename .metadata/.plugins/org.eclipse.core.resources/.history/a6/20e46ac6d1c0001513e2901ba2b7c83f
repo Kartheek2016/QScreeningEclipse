@@ -1,0 +1,23 @@
+.white {
+	height: 50px;
+	width: 50px;
+	background-color: white;
+	float: left;
+}
+
+.black {
+	height: 50px;
+	width: 50px;
+	background-color: black;
+	float: left;
+}
+
+.cell{
+	height: 50px;
+	width: 50px;
+	float:left;
+}
+
+.row:nth-child(2){
+	background-color: black;
+}

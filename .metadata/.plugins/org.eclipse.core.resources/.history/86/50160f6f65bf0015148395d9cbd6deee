@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Chess Board</title>
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="chessBoard.js"></script>
+</head>
+<body>
+	<div style="height:50px;width:50px;float:left;background-color:black"></div>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chess Board</title>
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- 	<script type="text/javascript" src="chessBoard.js"></script>
+ --></head>
+<body>
+	<div style="height:50px;width:50px;float:left;"></div><div style="height:50px;width:50px;float:left;background-color:black"></div>
+	<div style="height:50px;width:50px;float:left;"></div>
+	<div style="height:50px;width:50px;float:left;background-color:black"></div>
+	<div style="height:50px;width:50px;float:left;"></div>
+	<div style="height:50px;width:50px;float:left;background-color:black"></div>
+	<div style="height:50px;width:50px;float:left;"></div>
+	<div style="height:50px;width:50px;background-color:black"></div>
+	<div style="height:50px;width:50px;float:left;"></div>
+	<div style="height:50px;width:50px;float:left;background-color:black"></div>
+	<div style="height:50px;width:50px;float:left;"></div>
+	<div style="height:50px;width:50px;float:left;background-color:black"></div>
+	<div style="height:50px;width:50px;float:left;"></div>
+	<div style="height:50px;width:50px;float:left;background-color:black"></div>
+	<div style="height:50px;width:50px;float:left;"></div>
+	<div style="height:50px;width:50px;float:left;background-color:black"></div>
+	<div style="height:50px;width:50px;float:left;"></div>
+	<div style="height:50px;width:50px;float:left;background-color:black"></div>
+	<div style="height:50px;width:50px;float:left;"></div>
+	<div style="height:50px;width:50px;float:left;background-color:black"></div>
+
+</body>
+</html>

@@ -66,4 +66,4 @@ $(document).ready(function() {
 		table += "</tr>";		
 	}
 	$("tbody").append(table);
-}
+});
